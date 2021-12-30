@@ -1,0 +1,58 @@
+.userCard {
+    width: 80%;
+    height: 27rem;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(141, 56, 56, 0.5);
+    background-color: #4a7eee;
+    backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
+    border-width: 0.1px;
+    border-style: solid;
+    border-color: rgba(77, 18, 18, 0.425);
+}
+
+.userCard:hover {
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+
+.imgUser {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 250px;
+}
+
+.userCard-body {
+    margin: 20px;
+    text-align: center;
+}
+
+.userCard-body h3 {
+    font-weight: 800;
+    color: black;
+}
+
+.userCard-body p {
+    font-size: 15px;
+    font-weight: 700;
+    opacity: .9;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #9c4332 0%, #5f2841 51%, #ce3112 100%);
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    font-size: 1rem;
+    border-radius: 13px;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
